@@ -9,5 +9,3 @@ We should walk in the park every Sunday afternoon.'''
 
 words = re.findall('\w+',text)
 count= Counter(words)
-
-print(count.most_common(3))
